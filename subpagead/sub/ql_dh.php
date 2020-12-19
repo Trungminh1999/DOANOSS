@@ -1,5 +1,5 @@
 <?php  
-//$tam = $obj->query("select * from donhang");
+$tam = $obj->query("select * from donhang");
 $data = $tam->fetchAll();
 
 foreach ($data as $value) 
