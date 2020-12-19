@@ -1,7 +1,7 @@
 <?php
 
 if(isset($_SESSION['dangnhap'])){
-   // $email = $_SESSION['dangnhap'];
+    $email = $_SESSION['dangnhap'];
     $tam = $obj->query("select * from khachhang where email='$email' limit 1");
     $data = $tam->fetch();
     ?>
