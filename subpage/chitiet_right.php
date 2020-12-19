@@ -8,7 +8,7 @@ $data = $tam->fetch();
 
 <ul style="font-size: 16px;">
     <li><?php echo "Tên: " .$data['tensp'] ?></li>
-    
+    <li><?php echo "Giá: " .$data['gia']." VNĐ" ?></li>
     <li><?php echo "Số lượng: " .$data['soluong'] ?></li>
     <li><?php echo "Mã loại: " .$data['maloai'] ?></li>
 </ul>
