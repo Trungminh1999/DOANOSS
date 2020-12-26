@@ -1,5 +1,5 @@
 <?php
-matin= $_GET['matin'];
+$matin= $_GET['matin'];
 $tam = $obj->query("select * from news where matin='$matin' ");
 $data = $tam->fetch();
 ?>
